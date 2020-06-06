@@ -6,7 +6,7 @@ $token = "توکن اختصاصی";
 $payment = new \PayPing\Payment($token);
 
 try {
-    if($payment->verify($_GET['refid'], 100)){
+    if($payment->verify($_POST['refid'], 100)){
         echo "success";
     }else{
         echo "fail";

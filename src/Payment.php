@@ -9,7 +9,7 @@ use GuzzleHttp\Exception\RequestException;
 class Payment
 {
 
-    const BASE_URL = 'https://api.payping.ir/v1/';
+    const BASE_URL = 'https://api.payping.ir/v2/';
 
     private $token = "";
 
